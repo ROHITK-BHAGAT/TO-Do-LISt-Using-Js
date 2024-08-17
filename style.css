@@ -1,0 +1,255 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+body{
+    background: aqua;
+}
+
+.main{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+    width: 100vw;
+}
+.text-area{
+    /* display: flex; */
+    
+    margin-top: 10rem;
+    width: 46rem;
+    height: fit-content;
+    background-color: white;
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 10px; 
+    
+    
+}
+.header-main{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    margin-top: 20px;
+}
+.input{
+    margin-top: 20px;
+    width: 46rem;
+    
+}
+.entry{
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    /* margin: 50px; */
+    /* width: 100%; */
+    /* padding-right: 20rem; */
+    
+}
+#task{
+    width: 25rem;
+    height: 2.7rem;
+    float: left;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-weight: 900;
+    border-width: 3px;
+}
+::placeholder {
+    text-align: center;
+    font-size: 1.2rem;
+}
+#add{
+    width: fit-content;
+    height: 2.8rem;
+    float: right;
+    cursor: pointer;
+    font-size:1.9rem ;
+    background-color: aqua;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    border-width: 3px;
+    
+}
+#update{
+    width: fit-content;
+    height: 2.8rem;
+    float: right;
+    cursor: pointer;
+    font-size:1.9rem ;
+    background-color: aqua;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    border-width: 3px;
+}
+#add text{
+    color:black;
+}
+table, th, td {
+    border: 1px solid black;
+    
+    
+  }
+th, td{
+    align-items: left;
+  }
+  .table-main{
+    display: flex;
+    justify-content: center;
+    
+  }
+#table-data{
+    border: 2px;
+    width: 100%;
+    align-items: center;
+    width: 40rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+    /* padding-left: 3rem; */
+    
+}
+table{
+    width: 100%;
+    
+    
+}
+tr th{
+    border-spacing: 8rem;
+    padding: 1rem 0rem;
+    font-size: 1.2rem;
+    background-color: #b1fcfc;
+}
+tr td{
+    padding-left: 5.3rem;
+    padding-top: 0.5rem;
+    
+}
+tr:nth-child(even) {
+    background-color: #b1fcfc;
+  }
+.action{
+    margin-bottom: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.checkbox1{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.task_name{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration-line: line-through; 
+    text-decoration-line: none;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .text-area{
+        
+        
+        margin-top: 150px;
+        width: 20rem;
+        height: fit-content;
+        
+        overflow: hidden;
+        
+        
+        
+    }
+    .input{
+        
+        width: 20rem;
+        
+    }
+    .entry{
+        display: flex;
+        justify-content: space-evenly;
+       
+        /* margin: 50px; */
+        /* width: 100%; */
+        /* padding-right: 20rem; */
+        
+    }
+    #task{
+        width: 9rem;
+        height: 2.7rem;
+        float: left;
+        font-size: 1rem;
+       
+        
+    }
+    ::placeholder {
+        text-align: center;
+        font-size: 1rem;
+    }
+    #add{
+        width: fit-content;
+        height: 2.7rem;
+        
+        font-size:1.6rem ;
+        
+        
+    }
+    #update{
+        width: fit-content;
+        height: 2.7rem;
+        
+        font-size:1.6rem ;
+        
+    }
+    .table-main{
+        width: 20rem;
+    }
+    #table-data{
+        
+        
+        
+        width: 20rem;
+        
+        
+        /* padding-left: 3rem; */
+        
+    }
+    
+    
+    tr th{
+        
+        
+        font-size: 1rem;
+        
+    }
+    tr td{
+        padding-left: 1rem;
+        padding-top: 0.5rem;
+        
+        
+    }
+    .task_name{
+        font-size: 1rem;
+    }
+    
+    
+    .action{
+      
+        font-size: 2px;
+        
+    }
+    .checkbox1{
+        width: 1rem;
+        height: 1rem;
+    }
+    .action{
+        font-size: 1rem;
+    }
+    
+ }
+
+
